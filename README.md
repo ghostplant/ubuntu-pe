@@ -2,6 +2,8 @@
 
 ------------------------------------------
 
+![Flashback Logo](img-flashback.png "Desktop")
+
 ## Try Ubuntu Classic Desktop in Docker (with VNC):
 
 ```sh
