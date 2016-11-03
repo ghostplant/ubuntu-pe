@@ -7,13 +7,13 @@
 ## Try Ubuntu Classic Desktop in Docker (with VNC):
 
 ```sh
-docker run -it --rm -p 5901:5901 ghostplant/flashback
+docker run -it -d --name flashback -h flashback -p 5901:5901 -v /external:/root ghostplant/flashback
 ```
 
 Then use Linux Gvncviewer or Windows RealVNC to login:
 
 ```sh
-gvncviewer localhost:1 # default password is 123456
+gvncviewer localhost:1 # default password is 123456 for the first login, using 'vncpasswd' to change it
 ```
 
 ------------------------------------------
