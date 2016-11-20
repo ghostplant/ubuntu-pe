@@ -24,6 +24,12 @@ Then use Linux Gvncviewer or Windows RealVNC to login if you expose port 5901:
 gvncviewer localhost:1 # default password is 123456 for the first login, using 'vncpasswd' to change it
 ```
 
+or use Firefox/Chrome/IE11 to login if you expose port 8443:
+
+```sh
+firefox http://localhost:8443/
+firefox https://localhost:8443/
+```
 ------------------------------------------
 
 ## Try Ubuntu Classic Desktop ISO in Laptop/VM (CD Version to setup):
