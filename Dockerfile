@@ -14,7 +14,7 @@ RUN rm -f /etc/apt/sources.list.d/ghostplant-ubuntu-flashback-xenial.list
 RUN bash -c "echo -e 'set backspace=indent,eol,start\nset nocompatible\nset ts=4' >> /etc/vim/vimrc.tiny; echo '. /etc/bash_completion' >> /etc/profile"
 RUN update-flash-player
 
-CMD ["start-xvnc"]
+CMD ["sh", "-c", "start-xvnc"]
 
 # VOLUME ["/root"]
 EXPOSE 5901/tcp 8443/tcp
