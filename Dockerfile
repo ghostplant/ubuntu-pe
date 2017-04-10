@@ -1,10 +1,9 @@
 FROM ubuntu:xenial
 MAINTAINER CUI Wei <ghostplant@qq.com>
 
+ENV LANG=zh_CN.UTF-8
 ENV INIT_PASS=123456
 ENV GEOMETRY=1024x768
-
-ENV LANG=zh_CN.UTF-8
 ENV SESSION=docker
 
 RUN bash -c "echo -e 'deb http://ppa.launchpad.net/ghostplant/flashback/ubuntu xenial main' > /etc/apt/sources.list.d/ghostplant-ubuntu-flashback-xenial.list"
@@ -14,7 +13,8 @@ RUN rm -f /etc/apt/sources.list.d/ghostplant-ubuntu-flashback-xenial.list
 RUN bash -c "echo -e 'set backspace=indent,eol,start\nset nocompatible\nset ts=4' >> /etc/vim/vimrc.tiny; echo '. /etc/bash_completion' >> /etc/profile"
 RUN update-flash-player
 
-CMD ["sh", "-c", "start-xvnc"]
-
 # VOLUME ["/root"]
 EXPOSE 5901/tcp 8443/tcp
+
+CMD ["sh", "-c", "/bin/echo -e \"${INIT_PASS}\\n${INIT_PASS}\" | vncpasswd && start-xvnc"]
+
