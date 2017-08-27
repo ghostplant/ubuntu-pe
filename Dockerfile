@@ -16,5 +16,9 @@ RUN update-flash-player
 # VOLUME ["/root"]
 EXPOSE 5901/tcp 8443/tcp
 
-CMD ["sh", "-c", "/bin/echo -e \"${INIT_PASS}\\n${INIT_PASS}\" | vncpasswd && start-xvnc"]
+RUN sed -i 's/xsetroot -solid .*$/exec nemo -n \&/g' /usr/bin/start-xvnc
+RUN useradd -m -G sudo admin
+RUN /bin/echo "admin:${INIT_PASS}" | chpasswd
+RUN /bin/echo -e "${INIT_PASS}\n${INIT_PASS}\n" | vncpasswd
+CMD ["sh", "-c", "echo start-xvnc | su admin"]
 
