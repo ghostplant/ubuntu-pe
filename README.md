@@ -24,9 +24,9 @@ docker run -it --rm --name flashback -e INIT_PASS=123456 -p 5901:5901 -v /extern
 Then use Firefox/Chrome/IE11 to login if you expose port 8443:
 
 ```sh
-firefox http://localhost:8443/
+x-www-browser http://localhost:8443/
 
-firefox https://localhost:8443/
+x-www-browser https://localhost:8443/
 ```
 
 or use Linux Gvncviewer or Windows RealVNC to login if you expose port 5901:
