@@ -1,8 +1,18 @@
-# Ubuntu Classic Desktop (GNOME-3 Flashback)
+# Ubuntu Classic Desktop (GTK3-based Desktop Environment)
 
 ------------------------------------------
 
-## Try Ubuntu Classic Desktop in Docker (with VNC):
+### Ubuntu 18.04 LTS CDImage Download Links:
+
+http://ppa.launchpad.net/ghostplant/cdimages/ubuntu/pool/main/b/bionic-mate-desktop-amd64/
+
+### Ubuntu 16.04 LTS CDImage Download Links:
+
+http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/
+
+------------------------------------------
+
+## Try Ubuntu Classic Desktop 16.04 in Docker (with VNC):
 
 ```sh
 # Using web browser to login - http://localhost:8443/
