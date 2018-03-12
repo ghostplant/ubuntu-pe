@@ -2,11 +2,11 @@
 
 ------------------------------------------
 
-### Ubuntu 18.04 LTS CDImage Download Links:
+### Ubuntu 18.04 LTS CDImage Download Links (~441MB):
 
 http://ppa.launchpad.net/ghostplant/cdimages/ubuntu/pool/main/b/bionic-mate-desktop-amd64/
 
-### Ubuntu 16.04 LTS CDImage Download Links:
+### Ubuntu 16.04 LTS CDImage Download Links (~378MB):
 
 http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/
 
@@ -53,12 +53,6 @@ or use Linux Gvncviewer or Windows RealVNC to login if you expose port 5901:
 ```sh
 gvncviewer localhost:1 # default password is 123456 for the first login, using 'vncpasswd' to change it
 ```
-------------------------------------------
-
-## Try Ubuntu Classic Desktop ISO in Laptop/VM (CD Version to setup):
-
-Download tarball (>= 330M) via (http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/), and exact the ISO cdimage file in it.
-
 ------------------------------------------
 
 ## Reporting Issues
