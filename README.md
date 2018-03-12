@@ -67,7 +67,3 @@ You can post issues here for any suggestions to improve Ubuntu Classic Desktop. 
 
 你可以在这里以提交 Issues 的形式向我们反馈 Ubuntu Classic Desktop 的使用建议。你需要一个 GitHub 帐号来登录到 GitHub 平台，然后打开 [这里](https://github.com/ghostplant/ubuntu-classic/issues/new)，将建议填入表格中并提交即可。
 
-## Ubuntu 16.04 LTS Preview
-
-![Flashback Logo](img-flashback.png "Desktop")
-
