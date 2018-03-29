@@ -24,6 +24,8 @@ http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-
 ## Try Ubuntu Classic Desktop 16.04 in Docker (with VNC):
 
 ```sh
+(All default password is: 123456)
+
 # Using web browser to login - http://localhost:8443/
 docker run -it --rm --name flashback -p 8443:8443 -v /external:/root ghostplant/flashback
 
