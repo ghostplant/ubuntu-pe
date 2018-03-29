@@ -24,22 +24,22 @@ http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-
 ## Try Ubuntu Classic Desktop 16.04 in Docker (with VNC):
 
 ```sh
-(All default password is: 123456)
+(All default password is: 123456, using 'vncpasswd' inside the VNC session to change it)
 
 # Using web browser to login - http://localhost:8443/
-docker run -it --rm --name flashback -p 8443:8443 -v /external:/root ghostplant/flashback
+docker run -it --rm -p 8443:8443 -v /external:/root ghostplant/flashback
 
 # Using VNC client to login 'localhost:1'
-docker run -it --rm --name flashback -h flashback -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -h flashback -p 5901:5901 -v /external:/root ghostplant/flashback
 
 # Example: Set locale to en_US.UTF-8
-docker run -it --rm --name flashback -e LANG=en_US.UTF-8 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
 # Example: Set resolution to 1366x768
-docker run -it --rm --name flashback -e GEOMETRY=1366x768 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
 # Example: Set initial VNC password (length of password must be between 6 to 8). If ~/.vnc/passwd already exists, manual INIT_PASS won't take effect.
-docker run -it --rm --name flashback -e INIT_PASS=123456 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 ```
 
 Then use Firefox/Chrome/IE11 to login if you expose port 8443:
@@ -53,7 +53,7 @@ x-www-browser https://localhost:8443/
 or use Linux Gvncviewer or Windows RealVNC to login if you expose port 5901:
 
 ```sh
-gvncviewer localhost:1 # default password is 123456 for the first login, using 'vncpasswd' to change it
+gvncviewer localhost:1
 ```
 ------------------------------------------
 
