@@ -21,7 +21,7 @@ http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-
 
 ------------------------------------------
 
-## Try Ubuntu Classic Desktop 16.04 in Docker (with VNC):
+## Try Ubuntu Classic Desktop 18.04 in Docker (with VNC):
 
 ```sh
 (All default password is: 123456, using 'vncpasswd' inside the VNC session to change it)
