@@ -4,7 +4,8 @@
 
 ### Ubuntu 18.04 LTS CDImage Download Links (~441MB):
 
-http://ppa.launchpad.net/ghostplant/cdimages/ubuntu/pool/main/b/bionic-mate-desktop-amd64/
+x86_64: https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-amd64-20180927.iso
+i386_PAE: https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-i386-20180927.iso
 
 ### Ubuntu 16.04 LTS CDImage Download Links (~378MB):
 
@@ -60,6 +61,3 @@ gvncviewer localhost:1
 ## Reporting Issues
 
 You can post issues here for any suggestions to improve Ubuntu Classic Desktop. To report a new issue, you are supposed to have a GitHub account and log in with it in the first place. Then, get access to [new issue](https://github.com/ghostplant/ubuntu-classic/issues/new), fill in the block with what you want to report, and finally submit this issue.
-
-你可以在这里以提交 Issues 的形式向我们反馈 Ubuntu Classic Desktop 的使用建议。你需要一个 GitHub 帐号来登录到 GitHub 平台，然后打开 [这里](https://github.com/ghostplant/ubuntu-classic/issues/new)，将建议填入表格中并提交即可。
-
