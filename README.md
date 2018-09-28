@@ -4,8 +4,8 @@
 
 ### Ubuntu 18.04 LTS CDImage Download Links (~441MB):
 
-x86_64: https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-amd64-20180927.iso
-i386(pae): https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-i386-20180927.iso
+PC (32 bit): https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-amd64-20180927.iso
+PC (32 bit): https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-i386-20180927.iso
 
 ### Ubuntu 16.04 LTS CDImage Download Links (~378MB):
 
