@@ -29,19 +29,19 @@ http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-
 # Default VNC password: 123456 (update it via 'vncpasswd' command inside VNC session)
 
 # Using web browser to login - http://localhost:8443/
-docker run -it --rm -p 8443:8443 -v /external:/root ghostplant/flashback
+docker run -it --rm -p 8443:8443 -v /external:/home ghostplant/flashback
 
 # Using VNC client to login 'localhost:1'
-docker run -it --rm -h flashback -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -h flashback -p 5901:5901 -v /external:/home ghostplant/flashback
 
 # Example: Set locale to en_US.UTF-8
-docker run -it --rm -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/home ghostplant/flashback
 
 # Example: Set resolution to 1366x768
-docker run -it --rm -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/home ghostplant/flashback
 
 # Example: Set initial VNC password (length of password must be between 6 to 8). If ~/.vnc/passwd already exists, manual INIT_PASS won't take effect.
-docker run -it --rm -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/home ghostplant/flashback
 ```
 
 Then use Firefox/Chrome/IE11 to login if you expose port 8443:
