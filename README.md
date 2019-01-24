@@ -29,7 +29,7 @@ http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-
 # Default VNC password: 123456 (update it via 'vncpasswd' command inside VNC session)
 
 # Using web browser to login - http://localhost:8443/
-docker run -it --rm -p 8443:8443 -v /external:/home ghostplant/flashback
+docker run -it --rm -p 8443:8443 -e DEPTH=16 -v /external:/home ghostplant/flashback
 
 # Using VNC client to login 'localhost:1'
 docker run -it --rm -h flashback -p 5901:5901 -v /external:/home ghostplant/flashback
