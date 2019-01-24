@@ -27,6 +27,7 @@ RUN cd /usr/share/glib-2.0/schemas && \
         sed -i 's/^home-icon-name.*$//g' 90_ubuntu-classic.gschema.override && \
         sed -i 's/^picture-filename.*$//g' 90_ubuntu-classic.gschema.override && \
         glib-compile-schemas .
+RUN rm -f /usr/bin/mate-session-save
 
 # RUN useradd -m -G sudo -s /bin/bash admin
 # RUN /bin/echo "admin:${INIT_PASS}" | chpasswd
