@@ -2,46 +2,43 @@
 
 ------------------------------------------
 
-### Ubuntu 18.04 LTS CDImage Download Links (~441MB):
+### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
 64 bit: https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-amd64-20180927.iso
 
 32 bit: https://github.com/ghostplant/ubuntu-classic/releases/download/ubuntu-18.04/bionic-mate-i386-20180927.iso
 
-### Ubuntu 16.04 LTS CDImage Download Links (~378MB):
+### Ubuntu 16.04 LTS CDImage Download Links (Chinese Simplified, ~378MB):
 
 http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/
-
-
-## Ubuntu 18.04 LTS Preview
-
-![Flashback Logo Bionic](img-flashback-bionic.png "Desktop")
-
-## Ubuntu 16.04 LTS Preview
-
-![Flashback Logo Xenial](img-flashback-xenial.png "Desktop")
 
 ------------------------------------------
 
 ## You can also run Ubuntu Classic Desktop 18.04 in Docker (with VNC):
+(Default VNC password: 123456, and you can update it via 'vncpasswd' command inside VNC X session)
 
 ```sh
-# Default VNC password: 123456 (update it via 'vncpasswd' command inside VNC session)
+# Download/Update latest Ubuntu image
+docker pull ghostplant/flashback
 
-# Using web browser to login - http://localhost:8443/
-docker run -it --rm -p 8443:8443 -e DEPTH=16 -v /external:/home ghostplant/flashback
+# Chioce-1: Using web browser to login - http://localhost:8443/
+docker run -it --rm -p 8443:8443 -v /external:/root ghostplant/flashback
 
-# Using VNC client to login 'localhost:1'
-docker run -it --rm -h flashback -p 5901:5901 -v /external:/home ghostplant/flashback
+# Chioce-2: Using VNC client to login 'localhost:1'
+docker run -it --rm -p 5901:5901 -v /external:/root ghostplant/flashback
 
-# Example: Set locale to en_US.UTF-8
-docker run -it --rm -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/home ghostplant/flashback
+# Other Example 1: Set locale to en_US.UTF-8
+docker run -it --rm -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
-# Example: Set resolution to 1366x768
-docker run -it --rm -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/home ghostplant/flashback
+# Other Example 2: Set display resolution to 1366x768
+docker run -it --rm -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
-# Example: Set initial VNC password (length of password must be between 6 to 8). If ~/.vnc/passwd already exists, manual INIT_PASS won't take effect.
-docker run -it --rm -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/home ghostplant/flashback
+# Other Example 3: Set initial VNC password (length of password must be between 6 to 8).
+docker run -it --rm -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+
+# Other Example 4: Using 24-bit high resolution quality (Only recommended in high-bandwidth network)
+docker run -it --rm -e INIT_PASS=123456 -e DEPTH=24 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+```
 ```
 
 Then use Firefox/Chrome/IE11 to login if you expose port 8443:
@@ -57,6 +54,16 @@ or use Linux Gvncviewer or Windows RealVNC to login if you expose port 5901:
 ```sh
 gvncviewer localhost:1
 ```
+------------------------------------------
+
+## Ubuntu 18.04 LTS Preview
+
+![Flashback Logo Bionic](img-flashback-bionic.png "Desktop")
+
+## Ubuntu 16.04 LTS Preview
+
+![Flashback Logo Xenial](img-flashback-xenial.png "Desktop")
+
 ------------------------------------------
 
 ## Reporting Issues
