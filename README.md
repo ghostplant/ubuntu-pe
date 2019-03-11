@@ -6,9 +6,9 @@
 
 ### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-amd64-20190309.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-amd64-20190311.iso
 
-32 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-i386-20190309.iso
+32 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-i386-20190311.iso
 
 ### Ubuntu 16.04 LTS CDImage Download Links (Chinese Simplified, ~378MB):
 
