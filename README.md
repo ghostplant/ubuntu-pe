@@ -4,6 +4,10 @@
 
 ## a. Run Ubuntu Classic Desktop on Bare Metal (with CDROM):
 
+### Ubuntu 19.04 Disco (Alpha) CDImage Download Links (Chinese Simplified):
+
+64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-19.04/disco-mate-amd64-20190429.iso
+
 ### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
 64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-amd64-20190317.iso
