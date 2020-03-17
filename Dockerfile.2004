@@ -1,0 +1,32 @@
+FROM ubuntu:focal
+MAINTAINER CUI Wei <ghostplant@qq.com>
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN bash -c "echo -n 'mQINBFaeKgEBEACj4utwB2N8r9LpLb1GI4hnktVt6BPTFCOdv9HTehL54Y59lm+FQz+vqG2vU/bSqq6LD8/ZpIq9tTjvmQvGKKsmHF5QHmpFYmhQm53iz7hWfQW8UObfrFTA9B9tIIJDzkEHBusdKBB0gJmln5YKA/y3p+Tryk7UTczRTfbMJibQayuDoxk6vaPbXrJntrx17uITZYwFgAdKwJJRcdpgr9s1mGCcZJuLjshuMJY10SZRMFMtKrXJiJAu9QnUxJYO29bl/lqZfxfCMZqr1jfmbziNpfwN+6nxTCDbZhhvZkBo1ZGoqzrvXX6rrJePunW/HDmCEW/m2sx4o1eO+iCeWPku5+CivAYRWx0f2HXI5W8aw4EtBmXTzy0IM0Knnt43XG6AR8NYm/4SmUX/Bs7NBVf2l7fvPi1G/Aabd7lhCi17m6rO60phzE86ZqGTPAmkdjpc404/2b5A/U6GyWFGTO1fM4IlndmwkTG1L5N1vCuXVJRagfcRjCoYCxMXpF19fwNTDp8Via34onyNDEh4R4ziBWKhwDgVwtd9mf3/6N6MYc5MIr9FfnVWBDj5wBFsW7BTUehfJ+nUZzMXw5tM3hRfvtCRvX0OlsPP+ABJq0kQxlhzKoRs/1TDDWaThB9I/K7qSgLFTk+avwa1oe8y3t1b40A/8FZ4vJws3JJxXJ5OQwARAQABtBlMYXVuY2hwYWQgUFBBIGZvciBDdWkgV2VpiQI4BBMBAgAiBQJWnioBAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRD8xCVwh4X0Bf/RD/4+uGrMaPsfgWm8/gTgdQxeqNAz3BjgphcLMnfEkxuxppJdwnUs9enWsx0BBGrMIsl4eKzb1QcF1tr8TQuhMBVf28f6BHQGpA6gndIwvpcSXjgaRF2dOqGocsOgMPXhQRKoLWrKHzEpvYeHdykLmkczWIvyB6bMYbttj65KQI1VCSKONtTumYk1ZcIMtYkPk4Mjiy+45GQAlWxt1EH8DdBTCdXUJfPISFXDQEv6QcsqFBr0XC+KvaEC+mp/Be8i1dKWc0MNFBR+z8EtcdmOU4CckRM4OVc+qM2JnErzlYqod1azsF2KKRnptlTdgVnka98mgocNe2EEBqo/ntAf/+iUfBJSAvdRFAFQWgUYugnIZ+z+Nc8bBfPOJFqOk6agbYCcZZjIG+kevk+n6vbzXCsl390U9wPTtUPbc5lMO8TssNfOul7vf/atz8wkXcIiO0qLSYWc6hc0hmWH7GZtuvqNOQbDtXSNgsaLTQYWzeNSdWE7qt+Na2davNA0pzGauvE2Nbl5F8i+DyoBfiLRjpCsdqTKBOvutPoI+9FzC2a+3KHTND+g7YDlB+ZJmf0GV7vqj+usAbUyeNIX+7w09arWoP1iVwTfMYya89soaX6R4dS3kb6HQD9X0veuMMQpPdvuZK3RSBTAc9CY1VCUXLKm4kRz+/vkMMq1jb8H7aTpQbACAAM=' | base64 -d > /etc/apt/trusted.gpg.d/ghostplant_ubuntu_flashback.gpg"
+
+# Not excluding translate files
+RUN sed -i 's/^.*LC_MESSAGES.*$//g' /etc/dpkg/dpkg.cfg.d/excludes
+
+RUN bash -c "echo -e 'deb http://ppa.launchpad.net/ghostplant/flashback/ubuntu focal main' > /etc/apt/sources.list.d/ghostplant-ubuntu-flashback.list"
+RUN apt-get update && while ! apt-get install locales tightvncserver xfonts-base debian-properties-common gnome-flashback-classic fcitx fcitx-googlepinyin fcitx-ui-classic fcitx-frontend-gtk3 fcitx-config-gtk language-pack-zh-hans firefox firefox-locale-zh-hans dnsutils curl sudo psmisc iputils-ping rsync netcat-openbsd whiptail bash-completion openssh-client p7zip-full iproute2 net-tools vim-tiny openssl novnc vala-panel2 mate-calc mate-control-center marco mate-settings-daemon caja caja-open-terminal engrampa mate-terminal pluma eom mate-system-monitor mate-session-manager pavucontrol light-themes xinput scrot upower fonts-wqy-microhei libgdk-pixbuf2.0-bin gir1.2-gtk-3.0 xdg-utils python3-gi expect -y --no-install-recommends; do true; done && apt-clean
+
+RUN bash -c "echo -e 'set backspace=indent,eol,start\nset nocompatible\nset ts=4' >> /etc/vim/vimrc.tiny; echo '. /etc/bash_completion' >> /etc/profile"
+
+RUN locale-gen en_US.UTF-8
+RUN locale-gen zh_CN.UTF-8
+
+ENV LANG=zh_CN.UTF-8
+ENV INIT_PASS=123456
+ENV GEOMETRY=1024x768
+ENV USER=docker
+
+EXPOSE 5901/tcp 8443/tcp
+
+RUN /bin/echo -e '#!/usr/bin/expect -f\nspawn vncpasswd\nexpect "Password*"\nsend "$env(INIT_PASS)\n"\nexpect "Verify*"\nsend "$env(INIT_PASS)\n"\nexpect "*"\nsend "n\n"' > /usr/bin/set_vncpasswd && chmod a+x /usr/bin/set_vncpasswd
+RUN /bin/echo -e '#!/bin/bash\nexec mate-session &\nsleep 3\nexec caja --force-desktop -n &\n' > /usr/bin/xstartup && chmod a+x /usr/bin/xstartup
+RUN ln -sf vnc.html /usr/share/novnc/index.html
+RUN rm -f /usr/bin/mate-session-save
+
+CMD ["bash", "-c", "/usr/bin/set_vncpasswd >/dev/null 2>&1 && cp /usr/bin/xstartup /root/.vnc && vncserver -geometry ${GEOMETRY} -depth 16 :1 && /usr/share/novnc/utils/launch.sh --vnc 0.0.0.0:5901 --listen 8443"]
+
