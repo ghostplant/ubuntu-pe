@@ -24,9 +24,9 @@ ENV USER=docker
 EXPOSE 5901/tcp 8443/tcp
 
 RUN /bin/echo -e '#!/usr/bin/expect -f\nspawn vncpasswd\nexpect "Password*"\nsend "$env(INIT_PASS)\n"\nexpect "Verify*"\nsend "$env(INIT_PASS)\n"\nexpect "*"\nsend "n\n"' > /usr/bin/set_vncpasswd && chmod a+x /usr/bin/set_vncpasswd
-RUN /bin/echo -e '#!/bin/bash\nexec mate-session &\nsleep 3\nexec caja --force-desktop -n &\n' > /usr/bin/xstartup && chmod a+x /usr/bin/xstartup
+RUN /bin/echo -e '#!/bin/bash\nexec mate-session &\nwhile true; do sleep 1; caja --force-desktop -n; done\n' > /usr/bin/xstartup && chmod a+x /usr/bin/xstartup
 RUN ln -sf vnc.html /usr/share/novnc/index.html
 RUN rm -f /usr/bin/mate-session-save
 
-CMD ["bash", "-c", "/usr/bin/set_vncpasswd >/dev/null 2>&1 && cp /usr/bin/xstartup /root/.vnc && vncserver -geometry ${GEOMETRY} -depth 16 :1 && /usr/share/novnc/utils/launch.sh --vnc 0.0.0.0:5901 --listen 8443"]
+CMD ["bash", "-c", "mkdir -p /root/.vnc && cp /usr/bin/xstartup /root/.vnc && vncserver -geometry ${GEOMETRY} -depth 16 :1 && /usr/share/novnc/utils/launch.sh --vnc 0.0.0.0:5901 --listen 8443"]
 
