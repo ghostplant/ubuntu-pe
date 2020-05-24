@@ -4,6 +4,10 @@
 
 ## a. Run Ubuntu Classic Desktop on Bare Metal (with CDROM):
 
+### Ubuntu 20.04 LTS CDImage Download Links (Chinese Simplified, ~591MB):
+
+64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-20.04/focal-mate-x86_64-20200517.iso
+
 ### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
 64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso
@@ -12,7 +16,7 @@
 
 ### Ubuntu 16.04 LTS CDImage Download Links (Chinese Simplified, ~378MB):
 
-http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/
+http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/xenial-classic-desktop-amd64_2018.03.03-ubuntu0.tar.gz
 
 ------------------------------------------
 
