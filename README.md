@@ -16,7 +16,7 @@
 
 ### Ubuntu 16.04 LTS CDImage Download Links (Chinese Simplified, ~378MB):
 
-http://ppa.launchpad.net/ghostplant/flashback/ubuntu/pool/main/x/xenial-classic-desktop-amd64/xenial-classic-desktop-amd64_2018.03.03-ubuntu0.tar.gz
+64 bit: https://github.com/ghostplant/tiny-ubuntu-mate/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
 ------------------------------------------
 
