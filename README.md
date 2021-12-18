@@ -18,7 +18,7 @@
 
 64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
-### Ubuntu 22.04 LTS Core Download Links:
+### Ubuntu 22.04 LTS Core Download Links (~130MB, default username is ubuntu without password):
 
 64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-core-x86_64-20211218.iso
 
