@@ -6,17 +6,17 @@
 
 ### Ubuntu 20.04 LTS CDImage Download Links (Chinese Simplified, ~591MB):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-20.04/focal-mate-x86_64-20210208.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-20.04/focal-mate-x86_64-20210208.iso
 
 ### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso
 
-32 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso
+32 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso
 
 ### Ubuntu 16.04 LTS CDImage Download Links (Chinese Simplified, ~378MB):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-mate/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
 ------------------------------------------
 
