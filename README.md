@@ -20,7 +20,7 @@
 
 ### Ubuntu 22.04 LTS Core Download Links:
 
-https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-core-x86_64-20211218.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-core-x86_64-20211218.iso
 
 ------------------------------------------
 
