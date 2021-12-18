@@ -18,6 +18,10 @@
 
 64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
+### Ubuntu 22.04 LTS Core Download Links:
+
+https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-core-x86_64-20211218.iso
+
 ------------------------------------------
 
 ## b. Run Ubuntu Classic Desktop in Docker (with VNC):
