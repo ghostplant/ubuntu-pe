@@ -4,6 +4,10 @@
 
 ## a. Run Ubuntu Classic Desktop on Bare Metal (with CDROM):
 
+### Ubuntu 22.04 LTS CDImage Download Links (Unstable, Chinese Simplified, ~710MB):
+
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-mate-x86_64-20211219.iso
+
 ### Ubuntu 20.04 LTS CDImage Download Links (Chinese Simplified, ~591MB):
 
 64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-20.04/focal-mate-x86_64-20210208.iso
