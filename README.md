@@ -10,7 +10,7 @@
 
 ### Ubuntu 20.04 LTS CDImage Download Links (Chinese Simplified, ~591MB):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-20.04/focal-mate-x86_64-20210208.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-20.04/focal-mate-x86_64-20211220.iso
 
 ### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
@@ -21,10 +21,6 @@
 ### Ubuntu 16.04 LTS CDImage Download Links (Chinese Simplified, ~378MB):
 
 64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
-
-### Ubuntu 22.04 LTS Core Download Links (~130MB, default username is ubuntu without password):
-
-64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-core-x86_64-20211218.iso
 
 ------------------------------------------
 
