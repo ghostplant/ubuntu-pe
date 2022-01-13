@@ -10,7 +10,7 @@
 
 ### Ubuntu 20.04 LTS CDImage Download Links (Chinese Simplified, ~584MB):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-20.04/focal-mate-x86_64-20220108.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-20.04/focal-mate-x86_64-20220112.iso
 
 ### Ubuntu 18.04 LTS CDImage Download Links (Chinese Simplified, ~441MB):
 
