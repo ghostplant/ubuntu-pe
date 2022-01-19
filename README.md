@@ -6,7 +6,7 @@
 
 ### Ubuntu 22.04 LTS CDImage Download Links (Unstable, Preview):
 
-64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-mate-x86_64-20211226.iso
+64 bit: https://github.com/ghostplant/web-ubuntu-os/releases/download/ubuntu-22.04/jammy-mate-x86_64-20220119.iso
 
 ### Ubuntu 20.04 LTS CDImage Download Links (Chinese Simplified, ~584MB):
 
