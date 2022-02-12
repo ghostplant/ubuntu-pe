@@ -18,7 +18,11 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04
 
        2. Support Installing Ubuntu Image to Hard Drive: sudo ubilite-installer
 
-       3. Support Installing Windows Image to Hard Drive: sudo wiminstall.mbrboot /dev/<hard-drive-name> ./windows-11.wim <image-id>
+       3. Support Installing Windows Image to Hard Drive: sudo wiminstall.mbrboot /dev/<hard-drive-name> <WIM file> <image-id>
+       
+           ex-1: sudo wiminstall /dev/sda1 ./xp-sp3.wim && sudo update-grub
+           ex-2: sudo wiminstall.mbrboot /dev/sda1 ./windows-7.wim 4
+           ex-3: sudo wiminstall /dev/sda1 ./windows-11.wim 1 && update-grub
 
 ------------------------------------------
 
