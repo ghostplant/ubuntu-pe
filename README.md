@@ -28,7 +28,19 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04
            [M2: Not Erase Grub in Hard drive, but need manual configuration on bootloader]
            ex-1: Ensure Ubuntu + Grub has been installed on hard driver partitions other than /dev/sda1
            ex-1: sudo wiminstall /dev/sda1 ./xp-sp3.wim
-           ex-2: Reboot and login Ubuntu: gedit /boot/grub/grub.cfg to add booting entry for Windows.
+           ex-2: Reboot and login Ubuntu: gedit /boot/grub/grub.cfg to add booting entry for Windows. e.g.
+
+               # For XP/2003:
+               menuentry 'Windows NT 5.1' {
+                   set root='hd0,msdos1'
+                   ntldr /ntldr
+               }
+
+               # For Win7/Win8/Win10/Win11/..:
+               menuentry 'Windows NT 6.x +' {
+                   set root='hd0,msdos1'
+                   ntldr /bootmgr
+               }
 
 ------------------------------------------
 
