@@ -19,10 +19,16 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04
        2. Support Installing Ubuntu Image to Hard Drive: sudo ubi-lite
 
        3. Support Installing Windows Image to Hard Drive: sudo wiminstall.mbrboot /dev/<hard-drive-name> <WIM file> <image-id>
-       
-           ex-1: sudo wiminstall /dev/sda1 ./xp-sp3.wim && sudo update-grub
+
+           [M1: Will Erase Grub in Hard drive (cautious!)]
+           ex-1: sudo wiminstall.mbrboot /dev/sda1 ./xp-sp3.wim
            ex-2: sudo wiminstall.mbrboot /dev/sda1 ./windows-7.wim 4
-           ex-3: sudo wiminstall /dev/sda1 ./windows-11.wim 1 && update-grub
+           ex-3: sudo wiminstall.mbrboot /dev/sda1 ./windows-11.wim 1
+
+           [M2: Not Erase Grub in Hard drive, but need manual configuration on bootloader]
+           ex-1: Ensure Ubuntu + Grub has been installed on hard driver partitions other than /dev/sda1
+           ex-1: sudo wiminstall /dev/sda1 ./xp-sp3.wim
+           ex-2: Reboot and login Ubuntu: gedit /boot/grub/grub.cfg to add booting entry for Windows.
 
 ------------------------------------------
 
