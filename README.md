@@ -16,7 +16,7 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04
    
        1. Support Booting USB/CDROM in both MBR & UEFI machines;
 
-       2. Support Installing Ubuntu Image to Hard Drive: sudo ubilite-installer
+       2. Support Installing Ubuntu Image to Hard Drive: sudo ubi-lite
 
        3. Support Installing Windows Image to Hard Drive: sudo wiminstall.mbrboot /dev/<hard-drive-name> <WIM file> <image-id>
        
