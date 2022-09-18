@@ -6,7 +6,7 @@
 
 **Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~570MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20220909.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20220918.iso
 
 **Ubuntu 20.04 LTS Live PE (64-bit) (Chinese Simplified, ~569MB):**
 
@@ -30,7 +30,7 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04
 
        2. Support Installing Ubuntu Image to Hard Drive: sudo ubi-lite
 
-       3. Support Installing Windows Image to Hard Drive: sudo wiminstall.mbrboot /dev/<hard-drive-name> <WIM file> <image-id>
+       3. Support Installing Windows Image to MBR Hard Drive: sudo wiminstall.mbrboot /dev/<os-part-name> <WIM file> <image-id>
 
            [Method-1: Will Erase Grub in Hard drive (cautious!)]
            ex-1: sudo wiminstall.mbrboot /dev/sda1 ./xp-sp3.wim
@@ -41,6 +41,8 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04
            step-1: Ensure Ubuntu + Grub has been installed on hard driver partitions other than /dev/sda1
            step-2: sudo wiminstall /dev/sda1 ./xp-sp3.wim
            step-3: Reboot, login Ubuntu and run: sudo update-grub
+           
+           For UEFI Hard Drive (Ubuntu PE 22.04 only): sudo EFI=/dev/<efi-part-name> wiminstall.gptboot /dev/<os-part-name> <WIM file> <image-id>
 
 ------------------------------------------
 
