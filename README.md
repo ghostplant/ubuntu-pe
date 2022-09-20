@@ -10,13 +10,13 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04
 
 **Ubuntu 20.04 LTS Live PE (64-bit) (Chinese Simplified, ~569MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20220212.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20220918.iso
 
-**Ubuntu 18.04 LTS Live PE (64-bit) (Chinese Simplified, ~497MB):**
+**Ubuntu 18.04 LTS Live PE (64-bit) (Chinese Simplified, ~497MB, No WimTool Support):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso
 
-**Ubuntu 16.04 LTS Live PE (64-bit) (Chinese Simplified, ~381MB):**
+**Ubuntu 16.04 LTS Live PE (64-bit) (Chinese Simplified, ~381MB, No WimTool Support):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
@@ -42,7 +42,8 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04
            step-2: sudo wiminstall /dev/sda1 ./xp-sp3.wim
            step-3: Reboot, login Ubuntu and run: sudo update-grub
            
-           For UEFI Hard Drive (Ubuntu PE 22.04 only): sudo EFI=/dev/<efi-part-name> wiminstall.gptboot /dev/<os-part-name> <WIM file> <image-id>
+           [Method-3: For UEFI Installation to GPT Hard Drive]
+           sudo EFI=/dev/<efi-part-name> wiminstall.gptboot /dev/<os-part-name> <WIM file> <image-id>
 
 ------------------------------------------
 
