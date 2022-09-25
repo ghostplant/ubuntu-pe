@@ -6,7 +6,7 @@
 
 **Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~570MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20220918.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20220925.iso
 
 **Ubuntu 20.04 LTS Live PE (64-bit) (Chinese Simplified, ~569MB):**
 
