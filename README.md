@@ -4,13 +4,13 @@
 
 ### (a) Ubuntu PE for Bare Metal over ISO/USB:
 
-**Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~570MB):**
+**Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~575MB):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20220925.iso
 
-**Ubuntu 20.04 LTS Live PE (64-bit) (Chinese Simplified, ~569MB):**
+**Ubuntu 20.04 LTS Live PE (64-bit) (Chinese Simplified, ~585MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20220918.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20220925.iso
 
 **Ubuntu 18.04 LTS Live PE (64-bit) (Chinese Simplified, ~497MB, No WimTool Support):**
 
