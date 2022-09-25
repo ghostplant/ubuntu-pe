@@ -20,6 +20,8 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
+------------------------------------------
+
    *1. Write Ubuntu PE ISO to USB:*
 
        sudo dd if=./focal-mate-x86_64-xxxxxxxx.iso of=/dev/<usb-dev-file> bs=16K && sync
