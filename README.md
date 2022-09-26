@@ -26,7 +26,7 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04
 
        sudo dd if=./focal-mate-x86_64-xxxxxxxx.iso of=/dev/<usb-dev-file> bs=16K && sync
 
-   *2. Supported Features as Ubuntu PE:*
+   *2. Ubuntu PE Supported Features (Only for Ubuntu 20.04, 22.04 and future versions):*
    
        1. Support Booting USB/CDROM in both MBR & UEFI machines;
 
