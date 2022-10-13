@@ -1,8 +1,14 @@
 # Ubuntu PE Live CD with MATE Desktop
 
 ------------------------------------------
+### What's New according to Version Date:
 
-### (a) Ubuntu PE for Bare Metal over ISO/USB:
+* 20221012: Integrate MTP Phone Connection Monitor; Remove ADB Component;
+* 20221007: PE Desktop User Changed to ROOT; Add MemTest in Grub2 for both MBR and UEFI.
+* 20221002: Always using Grub2 Manager for both MBR boot and UEFI boot. 
+* 20220925: Support both wiminstall.mbrboot for Legacy BIOS and wiminstall.gptboot for UEFI BIOS.
+
+### Ubuntu PE for CDROM/USB:
 
 **Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~575MB):**
 
@@ -49,8 +55,7 @@ Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04
 
 ------------------------------------------
 
-
-### (b) Ubuntu PE Desktop for Remote Internet:
+### Ubuntu PE Desktop for Remote Internet:
 (Default VNC password: 123456, and you can update it via 'vncpasswd' command inside VNC X session)
 
 ```sh
