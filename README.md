@@ -3,7 +3,7 @@
 ------------------------------------------
 ### What's New according to Version Date:
 
-* 20221012: Integrate MTP Phone Connection Monitor; Remove ADB Component;
+* 20221012: Integrate MTP Phone Connection Monitor; Remove ADB Component.
 * 20221007: PE Desktop User changed to ROOT; Add MemTest for both MBR and UEFI.
 * 20221002: Always using Grub2 Manager for both MBR boot and UEFI boot. 
 * 20220925: Support both wiminstall.mbrboot for Legacy BIOS and wiminstall.gptboot for UEFI BIOS.
