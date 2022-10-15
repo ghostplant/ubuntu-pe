@@ -14,7 +14,7 @@
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221012.iso
 
-**Ubuntu 22.04 LTS Live PE Terminal Core (64-bit) (Chinese Simplified, ~145MB):**
+**Ubuntu 22.04 LTS Live PE Terminal Core (64-bit) (English, ~145MB):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso
 
