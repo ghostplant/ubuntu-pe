@@ -3,6 +3,7 @@
 ------------------------------------------
 ### What's New according to Version Date:
 
+* 20221031: Synchronize all updates to Ubuntu 22.04.1 LTS.
 * 20221012: Integrate MTP Phone Connection Monitor; Remove ADB Component.
 * 20221007: PE Desktop User changed to ROOT; Add MemTest for both MBR and UEFI.
 * 20221002: Always using Grub2 Manager for both MBR boot and UEFI boot. 
@@ -12,7 +13,7 @@
 
 **Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~575MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221012.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221031.iso
 
 **Ubuntu 22.04 LTS Live PE Terminal Core (64-bit) (English, ~145MB):**
 
