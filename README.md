@@ -3,6 +3,7 @@
 ------------------------------------------
 ### What's New according to Version Date:
 
+* 20221122: Enable 3D by Default (use VESA option if black screen); Use Chrome-80.0; Compress CDImage to 503M.
 * 20221111: Add Disk Partition GUI Tool (GParted); Fcitx/Aisleriot Translation.
 * 20221031: Synchronize all updates to Ubuntu 22.04.1 LTS.
 * 20221012: Integrate MTP Phone Connection Monitor; Remove ADB Component.
@@ -12,9 +13,9 @@
 
 ### Ubuntu PE for CDROM/USB:
 
-**Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~575MB):**
+**Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~503MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221111.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221122.iso
 
 **Ubuntu 22.04 LTS Live PE Terminal Core (64-bit) (English, ~145MB):**
 
