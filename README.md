@@ -13,19 +13,19 @@
 
 ### Ubuntu PE for CDROM/USB:
 
-**Ubuntu 22.04 LTS Live PE (64-bit) (Chinese Simplified, ~503MB):**
+**Ubuntu 22.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~503MB):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221122.iso
 
-**Ubuntu 20.04 LTS Live PE (64-bit) (Chinese Simplified, ~585MB):**
+**Ubuntu 20.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~585MB):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso
 
-**Ubuntu 18.04 LTS Live PE (64-bit) (Chinese Simplified, ~497MB, No WimTool Support):**
+**Ubuntu 18.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~497MB, No WimTool Support):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso
 
-**Ubuntu 16.04 LTS Live PE (64-bit) (Chinese Simplified, ~381MB, No WimTool Support):**
+**Ubuntu 16.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~381MB, No WimTool Support):**
 
 Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
