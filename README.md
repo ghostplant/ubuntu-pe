@@ -3,7 +3,7 @@
 ------------------------------------------
 ### What's New according to Version Date:
 
-* 20221225: Fix No Desktop Icon after Login; Upgrade Web Paint.
+* 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint.
 * 20221122: Enable 3D by Default (use VESA option if black screen); Use Chrome-80.0; Compress CDImage to 503M.
 * 20221111: Add Disk Partition GUI Tool (GParted); Fcitx/Aisleriot Translation.
 * 20221031: Synchronize all updates to Ubuntu 22.04.1 LTS.
