@@ -3,6 +3,7 @@
 ------------------------------------------
 ### What's New according to Version Date:
 
+* 20221225: Fix No Desktop Icon after Login; Upgrade Web Paint.
 * 20221122: Enable 3D by Default (use VESA option if black screen); Use Chrome-80.0; Compress CDImage to 503M.
 * 20221111: Add Disk Partition GUI Tool (GParted); Fcitx/Aisleriot Translation.
 * 20221031: Synchronize all updates to Ubuntu 22.04.1 LTS.
@@ -13,9 +14,9 @@
 
 ### Ubuntu PE for CDROM/USB:
 
-**Ubuntu 22.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~503MB):**
+**Ubuntu 22.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~506MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221122.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221225.iso
 
 **Ubuntu 20.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~585MB):**
 
