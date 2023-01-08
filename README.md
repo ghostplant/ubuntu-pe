@@ -3,6 +3,7 @@
 ------------------------------------------
 ### What's New according to Version Date:
 
+* 20230108: Add Hivex Windows Registry Editor and NT Password Tools.
 * 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint.
 * 20221122: Enable 3D by Default (use VESA option if black screen); Use Chrome-80.0; Compress CDImage to 503M.
 * 20221111: Add Disk Partition GUI Tool (GParted); Fcitx/Aisleriot Translation.
@@ -16,7 +17,7 @@
 
 **Ubuntu 22.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~506MB):**
 
-Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20221225.iso
+Download: https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20230108.iso
 
 **Ubuntu 20.04 LTS Live PE (64-bit) (English + Chinese Simplified, ~585MB):**
 
