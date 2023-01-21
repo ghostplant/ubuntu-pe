@@ -1,7 +1,7 @@
 # Ubuntu PE Live CD with MATE Desktop
 
 ------------------------------------------
-### What's New according to Version Date:
+### What's New:
 
 * 20230121: Include Onboard for Touchscreen; Add Resource Indicator to Panel.
 * 20230108: Add Hivex Windows Registry Editor and NT Password Tools.
