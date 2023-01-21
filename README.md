@@ -6,13 +6,7 @@
 * 20230121: Include Onboard for Touchscreen; Add Resource Indicator to Panel.
 * 20230108: Add Hivex Windows Registry Editor and NT Password Tools.
 * 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint.
-* 20221122: Enable 3D by Default (use VESA option if black screen); Use Chrome-80.0; Compress CDImage to 503M.
-* 20221111: Add Disk Partition GUI Tool (GParted); Fcitx/Aisleriot Translation.
-* 20221031: Synchronize all updates to Ubuntu 22.04.1 LTS.
-* 20221012: Integrate MTP Phone Connection Monitor; Remove ADB Component.
-* 20221007: PE Desktop User changed to ROOT; Add MemTest for both MBR and UEFI.
-* 20221002: Always using Grub2 Manager for both MBR boot and UEFI boot. 
-* 20220925: Support both wiminstall.mbrboot for Legacy BIOS and wiminstall.gptboot for UEFI BIOS.
+* ..
 
 ### Ubuntu PE for CDROM/USB:
 
