@@ -1,4 +1,4 @@
-# Ubuntu PE Live CD with MATE Desktop
+# Ubuntu PE based on pure GTK3 for CDROM/USB/PC
 
 ------------------------------------------
 ### What's New:
@@ -10,25 +10,25 @@
 
 ### Ubuntu PE for CDROM/USB:
 
-**Ubuntu 22.04 LTS Live PE (English + Chinese Simplified, ~506MB):**
+**Ubuntu 22.04 LTS Live PE, with UEFI Class3 + Secure Boot (LANG = en_US | zh_CN, ~506MB):**
 
 Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20230121.iso
 
-**Ubuntu 20.04 LTS Live PE (English + Chinese Simplified, ~585MB):**
+**Ubuntu 20.04 LTS Live PE (LANG = en_US | zh_CN, ~585MB):**
 
 Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso
 
-**Ubuntu 18.04 LTS Live PE (English + Chinese Simplified, ~497MB, No WimTool Support):**
+**Ubuntu 18.04 LTS Live PE (LANG = en_US | zh_CN, ~497MB, No WimTool Support):**
 
 Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso
 
 Download (x86): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso
 
-**Ubuntu 16.04 LTS Live PE (English + Chinese Simplified, ~381MB, No WimTool Support):**
+**Ubuntu 16.04 LTS Live PE (LANG = en_US | zh_CN, ~381MB, No WimTool Support):**
 
 Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20180303.iso
 
-**Ubuntu 22.04 LTS Live PE Terminal Core (English, ~145MB):**
+**Ubuntu 22.04 LTS Live PE Terminal Core (LANG = en_US, ~145MB):**
 
 Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso
 
