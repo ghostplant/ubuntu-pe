@@ -3,7 +3,7 @@
 ------------------------------------------
 ### What's New:
 
-* 20230225: Include Ubuntu Monthly Security Packs.
+* 20230312: Include Ubuntu Monthly Security Packs.
 * 20230121: Add Onboard for Touchscreen; Add Resource Indicator to Panel.
 * 20230108: Add Hivex Windows Registry Editor and NT Password Tools.
 * 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint.
@@ -13,7 +13,7 @@
 
 **Ubuntu 22.04 LTS Live PE, with UEFI Class3 + Secure Boot (LANG = en_US | zh_CN, ~506MB):**
 
-Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20230225.iso
+Download (x64): https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20230312.iso
 
 **Ubuntu 20.04 LTS Live PE (LANG = en_US | zh_CN, ~585MB):**
 
