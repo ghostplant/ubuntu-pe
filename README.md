@@ -62,19 +62,19 @@
 docker pull ghostplant/flashback
 
 # Boot Service: Using web browser to login - http://localhost:8443/
-docker run -it --rm -p 8443:8443 -v /external:/root ghostplant/flashback
+docker run -it --rm --privileged -p 8443:8443 -v /external:/root ghostplant/flashback
 
 # Other Example 1 - Language: Set locale to en_US.UTF-8
-docker run -it --rm -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm --privileged -e LANG=en_US.UTF-8 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
 # Other Example 2 - Resolution Size : Set display resolution to 1366x768
-docker run -it --rm -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm --privileged -e GEOMETRY=1366x768 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
 # Other Example 3 - Initial Password: Set initial VNC password (length of password must be between 6 to 8).
-docker run -it --rm -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm --privileged -e INIT_PASS=123456 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 
 # Other Example 4 - Resolution Quality: Using 24-bit high resolution quality (Only recommended in high-bandwidth network)
-docker run -it --rm -e INIT_PASS=123456 -e DEPTH=24 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
+docker run -it --rm --privileged -e INIT_PASS=123456 -e DEPTH=24 -p 8443:8443 -p 5901:5901 -v /external:/root ghostplant/flashback
 ```
 
 Then use Firefox/Chrome to login if you expose port 8443:
