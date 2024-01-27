@@ -11,19 +11,19 @@
 
 ### Ubuntu PE for CDROM/USB:
 
-**Debian 12 Live PE, with UEFI + Secure Boot (LANG = en_US | zh_CN):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso)
+**Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso)
 
-**Ubuntu 22.04 LTS Live PE, with UEFI + Secure Boot (LANG = en_US | zh_CN):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
+**Ubuntu 22.04 LTS PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
 
-**Ubuntu 20.04 LTS Live PE (LANG = en_US | zh_CN):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso)
+**Ubuntu 20.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso)
 
-**Ubuntu 18.04 LTS Live PE (LANG = en_US | zh_CN, No WimTool):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso)
+**Ubuntu 18.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso)
 
-**Ubuntu 16.04 LTS Live PE (LANG = en_US | zh_CN, No WimTool):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20231217.iso)
+**Ubuntu 16.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20231217.iso)
 
-**Ubuntu 10.04 LTS Live PE (LANG = en_US | zh_CN, No WimTool):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
+**Ubuntu 10.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
 
-**Ubuntu 22.04 LTS Live PE Terminal Core (LANG = en_US):** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
+**Ubuntu 22.04 LTS PE Terminal Core (LANG = en_US)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
 
 ------------------------------------------
 
