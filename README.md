@@ -13,7 +13,7 @@
 
 **Ubuntu 24.04 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20240209.iso)
 
-**Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
+**Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
 
 **Ubuntu 22.04 LTS PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
 
