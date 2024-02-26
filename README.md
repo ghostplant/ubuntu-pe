@@ -1,8 +1,9 @@
-# Ubuntu PE based on pure GTK3 for CDROM/USB/PC
+# Ubuntu PE: A Portable and Energy-Saving Edition for Ubuntu LTS
 
 ------------------------------------------
 ### What's New:
 
+* 20240224: Second Edition of Ubuntu 24.04 PE.
 * 20230312: Include Ubuntu Monthly Security Packs.
 * 20230121: Add Onboard for Touchscreen; Add Resource Indicator to Panel.
 * 20230108: Add Hivex Windows Registry Editor and NT Password Tools.
