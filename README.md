@@ -3,16 +3,17 @@
 ------------------------------------------
 ### What's New:
 
-* 20240224: Second Edition of Ubuntu 24.04 PE.
-* 20230312: Include Ubuntu Monthly Security Packs.
-* 20230121: Add Onboard for Touchscreen; Add Resource Indicator to Panel.
-* 20230108: Add Hivex Windows Registry Editor and NT Password Tools.
-* 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint.
+* 20240316: Upgrade to Linux 6.8 + Python 3.12.2;
+* 20240224: Second Edition of Ubuntu 24.04 PE;
+* 20230312: Include Ubuntu Monthly Security Packs;
+* 20230121: Add Onboard for Touchscreen; Add Resource Indicator to Panel;
+* 20230108: Add Hivex Windows Registry Editor and NT Password Tools;
+* 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint;
 * ..
 
 ### Ubuntu PE for CDROM/USB:
 
-**Ubuntu 24.04 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20240224.iso)
+**Ubuntu 24.04 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20240316.iso)
 
 **Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
 
