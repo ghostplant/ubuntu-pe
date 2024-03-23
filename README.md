@@ -11,6 +11,10 @@
 * 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint;
 * ..
 
+<p align="center">
+  <img src="Ubuntu_en.jpg" data-canonical-src="Ubuntu_en.jpg" />
+</p>
+
 ### Ubuntu PE for CDROM/USB:
 
 **Ubuntu 24.04 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20240316.iso)
