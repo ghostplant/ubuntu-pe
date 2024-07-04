@@ -3,6 +3,7 @@
 ------------------------------------------
 ### What's New:
 
+* 20240704: Enable "Alt + PrtScr" for Area Screenshot;
 * 20240425: Ubuntu PE 24.04 Stable;
 * 20240407: Security Packs for Ubuntu 24.04 (beta);
 * 20240316: Upgrade to Linux 6.8 + Python 3.12.2;
@@ -19,7 +20,7 @@
 
 ### Ubuntu PE for CDROM/USB:
 
-**Ubuntu 24.04 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20240501.iso)
+**Ubuntu 24.04 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20240704.iso)
 
 **Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
 
