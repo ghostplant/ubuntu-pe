@@ -1,4 +1,4 @@
-# Ubuntu PE: A Portable and Energy-Saving Edition for Ubuntu LTS
+# Ubuntu PE: A Fast, Portable and Energy-Saving edition for Ubuntu LTS
 
 ------------------------------------------
 ### What's New:
