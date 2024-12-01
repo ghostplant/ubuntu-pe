@@ -3,7 +3,7 @@
 ------------------------------------------
 ### What's New:
 
-* 20241116: Support ARM64-based Ubuntu PE for Mac Silicon (Download [Virtual Box for Mac Silicon](https://www.virtualbox.org/wiki/Downloads));
+* 20241116: Support ARM64-based Ubuntu PE for Mac Silicon (supporting [VirtualBox for Mac](https://www.virtualbox.org/wiki/Downloads) / Android pKVM / ..);
 * 20241027: Update virtio_gpu detection for QEMU; Add cmd "mount.ios" for Iphone;
 * 20240818: Allow "Boot in normal mode" if booting from Ventoy;
 * 20240704: Enable "Alt + PrtScr" for Area Screenshot;
