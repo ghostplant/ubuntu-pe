@@ -30,9 +30,9 @@
 
 ### - Early Versions in History:
 
-- **Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
+- **Debian 12 PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
 
-- **Ubuntu 22.04 LTS PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
+- **Ubuntu 22.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
 
 - **Ubuntu 22.04 LTS PE Core (LANG = en_US)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
 
