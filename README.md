@@ -3,6 +3,7 @@
 ------------------------------------------
 ### What's New:
 
+* 20241225: Bug Fix - EFI dependency missing using Wiminstall.gptboot for Windows Installation;
 * 20241116: Support ARM64-based Ubuntu PE for Mac Silicon (supporting [VirtualBox for Mac](https://www.virtualbox.org/wiki/Downloads) / Android pKVM / ..);
 * 20241027: Update virtio_gpu detection for QEMU; Add cmd "mount.ios" for Iphone;
 * 20240818: Allow "Boot in normal mode" if booting from Ventoy;
@@ -17,31 +18,37 @@
 * 20221225: Fix Desktop-Icon Disappearance after Login; Upgrade Integrated Web Paint;
 * ..
 
+------------------------------------------
+
+### - Ubuntu PE 24.04 LTS PE for CDROM/USB (LANG = en_US | zh_CN):
+
+- **Download Full Desktop Version (560M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241225.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241225.iso)
+
+- **Download No-desktop Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-aarch64-20241122.iso)
+
+------------------------------------------
+
+### - Early Versions in History:
+
+- **Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
+
+- **Ubuntu 22.04 LTS PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
+
+- **Ubuntu 22.04 LTS PE Core (LANG = en_US)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
+
+- **Ubuntu 20.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso)
+
+- **Ubuntu 18.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso)
+
+- **Ubuntu 16.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20231217.iso)
+
+- **Ubuntu 10.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
+
+------------------------------------------
+
 <p align="center">
   <img src="Ubuntu_en.jpg" data-canonical-src="Ubuntu_en.jpg" />
 </p>
-
-### Ubuntu PE for CDROM/USB:
-
-**Ubuntu 24.04 LTS PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241116.iso) | [arm64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241116.iso)
-
-**Ubuntu 24.04 LTS PE Core (LANG = en_US)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso) | [arm64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-aarch64-20241122.iso)
-
-**Debian 12 PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
-
-**Ubuntu 22.04 LTS PE, with UEFI + Secure Boot (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
-
-**Ubuntu 22.04 LTS PE Core (LANG = en_US)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
-
-**Ubuntu 20.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso)
-
-**Ubuntu 18.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso) | [x86](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso)
-
-**Ubuntu 16.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20231217.iso)
-
-**Ubuntu 10.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
-
-------------------------------------------
 
    *1. Write Ubuntu PE ISO to USB:*
 
