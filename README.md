@@ -47,7 +47,7 @@
 ------------------------------------------
 
 <p align="center">
-  <img src="Ubuntu_en.jpg" data-canonical-src="Ubuntu_en.jpg" />
+  <img src="Ubuntu_PE.jpg" data-canonical-src="Ubuntu_PE.jpg" />
 </p>
 
    *1. Write Ubuntu PE ISO to USB:*
