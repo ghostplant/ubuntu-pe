@@ -4,7 +4,7 @@
 ### What's New:
 
 * 20241225: Bug Fix - EFI dependency missing using Wiminstall.gptboot for Windows Installation;
-* 20241116: Support ARM64-based Ubuntu PE for Mac Silicon (supporting [VirtualBox for Mac](https://www.virtualbox.org/wiki/Downloads) / Android pKVM / ..);
+* 20241116: Add Ubuntu PE for Arm64 (support [Mac VBox](https://www.virtualbox.org/wiki/Downloads) / Android pKVM);
 * 20241027: Update virtio_gpu detection for QEMU; Add cmd "mount.ios" for Iphone;
 * 20240818: Allow "Boot in normal mode" if booting from Ventoy;
 * 20240704: Enable "Alt + PrtScr" for Area Screenshot;
@@ -26,6 +26,10 @@
 
 - **Download No-desktop Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-aarch64-20241122.iso)
 
+<p align="center">
+  <img src="Ubuntu_PE.jpg" data-canonical-src="Ubuntu_PE.jpg" />
+</p>
+
 ------------------------------------------
 
 ### - Early Versions in History:
@@ -45,10 +49,6 @@
 - **Ubuntu 10.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
 
 ------------------------------------------
-
-<p align="center">
-  <img src="Ubuntu_PE.jpg" data-canonical-src="Ubuntu_PE.jpg" />
-</p>
 
    *1. Write Ubuntu PE ISO to USB:*
 
