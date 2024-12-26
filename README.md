@@ -3,7 +3,7 @@
 ------------------------------------------
 ### What's New:
 
-* 20241225: Bug Fix - EFI dependency missing using Wiminstall.gptboot for Windows Installation;
+* 20241225: Fix the Bug of EFI dependency missing using Wiminstall.gptboot for Windows Installation;
 * 20241116: Add Ubuntu PE for Arm64 (support [Mac VBox](https://www.virtualbox.org/wiki/Downloads) / Android pKVM);
 * 20241027: Update virtio_gpu detection for QEMU; Add cmd "mount.ios" for Iphone;
 * 20240818: Allow "Boot in normal mode" if booting from Ventoy;
@@ -24,7 +24,7 @@
 
 - **Download Full Desktop Version (560M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241225.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241225.iso)
 
-- **Download No-desktop Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso)
+- **Download No-desktop Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso)  ` <- Username for Login = root`
 
 <p align="center">
   <img src="Ubuntu_PE.jpg" data-canonical-src="Ubuntu_PE.jpg" />
