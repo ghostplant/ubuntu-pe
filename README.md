@@ -23,13 +23,15 @@
 
 ### - Ubuntu Tiny 24.04 Noble LTS for CDROM/USB (LANG = en_US | zh_CN):
 
-- **Download Full Desktop Version (560M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241225.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241225.iso)
-
-- **Download No-desktop Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-aarch64-20241122.iso)
+>
+>
+> **Download Full Desktop Version (560M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241225.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241225.iso)
+>
+> **Download No-desktop Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-aarch64-20241122.iso)
 
 ### - Debian Tiny 13 Trixie for CDROM/USB (LANG = en_US | zh_CN):
 
-- **Download Full Desktop Version (550M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-x86_64-20250421.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-aarch64-20250421.iso)
+> **Download Full Desktop Version (550M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-x86_64-20250421.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-aarch64-20250421.iso)
 
 <p align="center">
   <img src="Ubuntu_PE.jpg" data-canonical-src="Ubuntu_PE.jpg" />
