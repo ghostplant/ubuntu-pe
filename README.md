@@ -1,16 +1,17 @@
-# Ubuntu Tiny: A Fast, Portable and Power-Saving edition for Ubuntu/Debian LTS
+# Ubuntu PE: A Fast, Portable and Power-Saving edition for Ubuntu/Debian LTS
 
 ------------------------------------------
-### - Ubuntu Tiny 26.04 Resolute LTS for CDROM/USB (LANG = en_US | zh_CN):
+### - Ubuntu PE 26.04 Resolute LTS for CDROM/USB (LANG = en_US | zh_CN):
 
-> **Download Full Desktop Version (570M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/Ubuntu-Tiny/releases/download/ubuntu-26.04/resolute-mate-x86_64-20260505.iso) | [arm64 (UEFI)](https://github.com/ghostplant/Ubuntu-Tiny/releases/download/ubuntu-26.04/resolute-mate-aarch64-20260505.iso)
+> **Download Full Desktop Version (570M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-26.04/resolute-mate-x86_64-20261111.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-26.04/resolute-mate-aarch64-20261111.iso)
 >
-> **Download No-desktop/No-driver Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/Ubuntu-Tiny/releases/download/ubuntu-26.04/resolute-core-x86_64-20260505.iso) | [arm64 (UEFI)](https://github.com/ghostplant/Ubuntu-Tiny/releases/download/ubuntu-26.04/resolute-core-aarch64-20251116.iso)
+> **Download No-desktop/No-driver Version (140M+)**: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-26.04/resolute-core-x86_64-20260505.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-26.04/resolute-core-aarch64-20251116.iso)
 
 ------------------------------------------
 
 ### What's New:
 
+* 20261111: Fix Screenshot saving; Fix non UTF-8 encoding; Add the supaplex game;
 * 20260505: Fix Input Method for Geany (For earlier releases, please fix with: apt install fcitx-frontend-gtk3);
 * 20260408: Add Windows Registry Editor (Regedit for Linux);
 * 20260317: Setup Root User for installation / Refine Grub2 installation;
@@ -22,14 +23,14 @@
 * 20250809: Debian 13 Trixie Release (aarch64 + amd64);
 * 20250504: Debian 13 Trixie Draft (aarch64 + amd64);
 * 20241225: Bug Fix - EFI dependency missing using Wiminstall.gptboot for Windows Installation;
-* 20241116: Add Ubuntu Tiny for Arm64 (support [Mac VBox](https://www.virtualbox.org/wiki/Downloads) / Android pKVM);
+* 20241116: Add Ubuntu PE for Arm64 (support [Mac VBox](https://www.virtualbox.org/wiki/Downloads) / Android pKVM);
 * 20241027: Update virtio_gpu detection for QEMU; Add cmd "mount.ios" for Iphone;
 * 20240818: Allow "Boot in normal mode" if booting from Ventoy;
 * 20240704: Enable "Alt + PrtScr" for Area Screenshot;
-* 20240425: Ubuntu Tiny 24.04 Stable;
+* 20240425: Ubuntu PE 24.04 Stable;
 * 20240407: Security Packs for Ubuntu 24.04 (beta);
 * 20240316: Upgrade to Linux 6.8 + Python 3.12.2;
-* 20240224: Second Edition of Ubuntu 24.04 Tiny;
+* 20240224: Second Edition of Ubuntu 24.04 PE;
 * 20230312: Include Ubuntu Monthly Security Packs;
 * 20230121: Add Onboard for Touchscreen; Add Resource Indicator to Panel;
 * 20230108: Add Hivex Windows Registry Editor and NT Password Tools;
@@ -40,33 +41,33 @@
 
 ### - Early Versions in History:
 
-- **Debian 13 Tiny (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-x86_64-20250809.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-aarch64-20250809.iso)
+- **Debian 13 PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-x86_64-20250809.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-13/trixie-mate-aarch64-20250809.iso)
 
-- **Ubuntu 24.04 LTS Tiny (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241225.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241225.iso)
+- **Ubuntu 24.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-x86_64-20241225.iso) | [arm64 (UEFI)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-mate-aarch64-20241225.iso)
 
-- **Ubuntu 24.04 LTS Tiny Core (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso)
+- **Ubuntu 24.04 LTS PE Core (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-24.04/noble-core-x86_64-20241122.iso)
 
-- **Debian 12 Tiny (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
+- **Debian 12 PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-x86_64-20231220.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/debian-12/debian-mate-i686-20231226.iso)
 
-- **Ubuntu 22.04 LTS Tiny (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
+- **Ubuntu 22.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-mate-x86_64-20231220.iso)
 
-- **Ubuntu 22.04 LTS Tiny Core (LANG = en_US)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
+- **Ubuntu 22.04 LTS PE Core (LANG = en_US)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-22.04/jammy-core-x86_64-20221015.iso)
 
-- **Ubuntu 20.04 LTS Tiny (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso)
+- **Ubuntu 20.04 LTS PE (LANG = en_US | zh_CN)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-20.04/focal-mate-x86_64-20221002.iso)
 
-- **Ubuntu 18.04 LTS Tiny (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso)
+- **Ubuntu 18.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-amd64-20200222.iso) | [x86 (MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/bionic-mate-i386-20200222.iso)
 
-- **Ubuntu 16.04 LTS Tiny (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20231217.iso)
+- **Ubuntu 16.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/xenial-classic-amd64-20231217.iso)
 
-- **Ubuntu 10.04 LTS Tiny (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
+- **Ubuntu 10.04 LTS PE (LANG = en_US | zh_CN, No WimTool)** Download: [x64 (UEFI+MBR)](https://github.com/ghostplant/ubuntu-pe/releases/download/ubuntu-18.04/maverick-classic-amd64.iso)
 
 ------------------------------------------
 
-   *1. Write Ubuntu Tiny ISO to USB:*
+   *1. Write Ubuntu PE ISO to USB:*
 
        sudo dd if=./focal-mate-x86_64-xxxxxxxx.iso of=/dev/<usb-dev-file> bs=16K && sync
 
-   *2. Ubuntu Tiny Supported Features (Only for Ubuntu 20.04, 22.04 and future versions):*
+   *2. Ubuntu PE Supported Features (Only for Ubuntu 20.04, 22.04 and future versions):*
    
        1. Support Booting USB/CDROM in both MBR & UEFI machines;
 
@@ -93,7 +94,7 @@
 
 ------------------------------------------
 
-### Ubuntu Tiny Desktop for Remote Internet:
+### Ubuntu PE Desktop for Remote Internet:
 (Default VNC password: 123456, and you can update it via 'vncpasswd' command inside VNC X session)
 
 ```sh
